@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MasterPlayer' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MasterPlayer
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'SVProgressHUD'
+  pod 'ParallaxHeader'
+
+  target 'MasterPlayerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MasterPlayerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

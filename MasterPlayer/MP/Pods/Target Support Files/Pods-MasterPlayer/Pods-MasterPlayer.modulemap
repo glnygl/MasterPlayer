@@ -1,0 +1,6 @@
+framework module Pods_MasterPlayer {
+  umbrella header "Pods-MasterPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

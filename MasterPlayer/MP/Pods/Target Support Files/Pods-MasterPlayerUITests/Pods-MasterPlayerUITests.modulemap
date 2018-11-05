@@ -1,0 +1,6 @@
+framework module Pods_MasterPlayerUITests {
+  umbrella header "Pods-MasterPlayerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
